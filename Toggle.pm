@@ -44,7 +44,8 @@ Tie::Toggle - False and true, alternately, ad infinitum.
 You use C<Tie::Toggle> to go back and forth between false
 and true over and over again. You don't have to worry about
 any of this since the magic of tie does that for you by
-using C<Tie::Cycle>.
+using C<Tie::Cycle>.  Any time you access the value, it
+flips.
 
 You can also use C<Tie::FlipFlop> by Abigail to do the same
 thing, but with any two values.
@@ -54,18 +55,18 @@ thing, but with any two values.
 This source is part of a SourceForge project which always has the
 latest sources in CVS, as well as all of the previous releases.
 
-	https://sourceforge.net/projects/brian-d-foy/
+	http://sourceforge.net/projects/brian-d-foy/
 
 If, for some reason, I disappear from the world, one of the other
 members of the project can shepherd this module appropriately.
 
 =head1 AUTHOR
 
-brian d foy, E<lt>bdfoy@cpan.orgE<gt>.
+brian d foy, C<< <bdfoy@cpan.org> >>.
 
 =head1 COPYRIGHT and LICENSE
 
-Copyright 2000, brian d foy, All rights reserved
+Copyright 2000-2004, brian d foy, All rights reserved
 
 This software is available under the same terms as perl.
 
