@@ -1,13 +1,13 @@
+# $Id$
 package Tie::Toggle;
-
-require 5.6.0;
 use strict;
-use warnings;
+
+use base qw( Tie::Cycle );
+use vars qw( $VERSION );
 
 use Tie::Cycle;
 
-our $VERSION = 0.02;
-our @ISA     = qw(Tie::Cycle);
+$VERSION = 1.0;
 
 sub TIESCALAR
 	{
@@ -35,10 +35,10 @@ Tie::Toggle - False and true, alternately, ad infinitum.
 	foreach my $number ( 0 .. 10 )
 		{
 		next unless $toggle;
-		
+
 		print $number, "\n";
 		}
-		
+
 =head1 DESCRIPTION
 
 You use C<Tie::Toggle> to go back and forth between false
@@ -49,13 +49,23 @@ using C<Tie::Cycle>.
 You can also use C<Tie::FlipFlop> by Abigail to do the same
 thing, but with any two values.
 
+=head1 SOURCE AVAILABILITY
+
+This source is part of a SourceForge project which always has the
+latest sources in CVS, as well as all of the previous releases.
+
+	https://sourceforge.net/projects/brian-d-foy/
+
+If, for some reason, I disappear from the world, one of the other
+members of the project can shepherd this module appropriately.
+
 =head1 AUTHOR
 
-brian d foy <brian+cpan@smithrenaud.com>.
+brian d foy, E<lt>bdfoy@cpan.orgE<gt>.
 
 =head1 COPYRIGHT and LICENSE
 
-Copyright 2000 by brian d foy.
+Copyright 2000, brian d foy, All rights reserved
 
 This software is available under the same terms as perl.
 
