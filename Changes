@@ -1,5 +1,9 @@
 Revision history for Perl extension Tie::Toggle.
 
+1.04 - Tue Sep  7 19:25:54 2004
+* cleaned up distribution and added README
+* no need to upgrade if you already have this module
+
 1.03 - Tue Dec 17 12:49:31 2002
 	* removed 'require 5.6.0' (perl5.8 complains about v-strings)
 	* beefed up distribution files
