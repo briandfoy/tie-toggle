@@ -1,0 +1,9 @@
+Revision history for Perl extension Tie::Toggle.
+
+0.02  Wed Jan 24 14:51:29 EST 2001
+	- minor doc fixes
+
+0.01  Sun Aug 13 19:34:40 2000
+	- original version; created by h2xs 1.20 with options
+		-AXn Tie::Toggle
+
