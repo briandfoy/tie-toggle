@@ -19,7 +19,7 @@ WriteMakefile(
 		'Test::Manifest'   => '0.91',
 		'Test::More'       => '0',
 		'Test::Pod'        => '0.90',
-    	'Tie::Cycle'       => '1.0',
+    	'Tie::Cycle'       => '1.05',
     	},
     
     'MAN3PODS'      => {
