@@ -1,10 +1,11 @@
 Changes
-MANIFEST			This list of files
 Makefile.PL
-Toggle.pm
+MANIFEST			This list of files
+META.yml			Module meta-data (added by MakeMaker)
+README
 t/load.t
 t/pod.t
+t/pod_coverage.t
 t/test_manifest
 t/toggle.t
-META.yml                                 Module meta-data (added by MakeMaker)
-README
+Toggle.pm
