@@ -1,5 +1,9 @@
 Revision history for Perl extension Tie::Toggle.
 
+1.07 - Tue Jan  9 23:00:05 2007
+	* updated copyright and license info
+	* no code changes, so no need to upgrade
+
 1.06 - Wed May 17 21:12:11 2006
 	* Updated dist for copyright notice, kwalitee. No need to upgrade.
 
