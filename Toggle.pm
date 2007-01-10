@@ -64,11 +64,12 @@ members of the project can shepherd this module appropriately.
 
 brian d foy, C<< <bdfoy@cpan.org> >>.
 
-=head1 COPYRIGHT and LICENSE
+=head1 COPYRIGHT AND LICENSE
 
-Copyright 2000-2006, brian d foy, All rights reserved
+Copyright (c) 2000-2007 brian d foy.  All rights reserved.
 
-This software is available under the same terms as perl.
+This program is free software; you can redistribute it and/or modify
+it under the same terms as Perl itself.
 
 =cut
 
