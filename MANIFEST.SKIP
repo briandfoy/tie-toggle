@@ -1,4 +1,6 @@
 .cvsignore
+.svnignore
+.svn
 .releaserc
 .lwpcookies
 Tie-Toggle-.*

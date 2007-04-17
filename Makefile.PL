@@ -7,6 +7,7 @@ WriteMakefile(
 	'NAME'		    => 'Tie::Toggle',
 	'VERSION_FROM'	=> 'Toggle.pm',
 	'LICENSE'       => 'perl',
+	'AUTHOR'        => 'brian d foy <bdfoy@cpan.org>',
 
 	'PREREQ_PM'		=> {
 		'Test::More'       => '0',

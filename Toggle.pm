@@ -7,7 +7,9 @@ use vars qw( $VERSION );
 
 use Tie::Cycle;
 
-$VERSION = sprintf "%d.%02d", q$Revision$ =~ m/ (\d+) \. (\d+) /xg;
+#$VERSION = sprintf "%d.%02d", q$Revision$ =~ m/ (\d+) \. (\d+) /xg;
+
+$VERSION = 1.08;
 
 sub TIESCALAR
 	{
