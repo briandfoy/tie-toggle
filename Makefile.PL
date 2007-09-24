@@ -5,7 +5,9 @@ eval "use Test::Manifest 1.14";
 	
 WriteMakefile(
 	'NAME'		    => 'Tie::Toggle',
+	'ABSTRACT'      => 'False and true, alternately, ad infinitum',
 	'VERSION_FROM'	=> 'Toggle.pm',
+
 	'LICENSE'       => 'perl',
 	'AUTHOR'        => 'brian d foy <bdfoy@cpan.org>',
 
