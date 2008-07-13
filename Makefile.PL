@@ -1,6 +1,8 @@
 # $Id$
 use ExtUtils::MakeMaker;
 
+require 5.006;
+
 eval "use Test::Manifest 1.14";
 	
 WriteMakefile(
@@ -12,7 +14,6 @@ WriteMakefile(
 	'AUTHOR'        => 'brian d foy <bdfoy@cpan.org>',
 
 	'PREREQ_PM'		=> {
-		'Test::More'       => '0',
 		'Tie::Cycle'       => '1.05',
 		},
 
