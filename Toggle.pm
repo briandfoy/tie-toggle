@@ -1,4 +1,3 @@
-# $Id$
 package Tie::Toggle;
 use strict;
 
