@@ -5,14 +5,16 @@ use warnings;
 
 eval "use Test::Manifest 1.14";
 	
-my $github    = 'https://github.com/briandfoy/';
-my $main_file = 'lib/';
+use File::Spec::Functions qw(catfile);
+
+my $module    = 'Tie::Toggle';
+my $github    = 'https://github.com/briandfoy/Tie-Toggle';
+my $main_file = catfile( 'lib', split /::/, "$module.pm" );
 
 my %WriteMakefile = (
-	'NAME'		    => 'Tie::Toggle',
+	'NAME'		    => $module,
 	'ABSTRACT_FROM' => $main_file,
-	'VERSION_FROM'	=> 'Toggle.pm',
-
+	'VERSION_FROM'	=> $main_file,
 	'LICENSE'       => 'perl',
 	'AUTHOR'        => 'brian d foy <bdfoy@cpan.org>',
 
@@ -28,6 +30,7 @@ my %WriteMakefile = (
 		},
 
 	'PREREQ_PM'     => {
+		'Tie::Cycle'       => '1.05',
 		},
 
 	'META_MERGE' => {
@@ -43,13 +46,6 @@ my %WriteMakefile = (
 				},
 			homepage => $github,
 			},
-		},
-	'PREREQ_PM'		=> {
-		'Tie::Cycle'       => '1.05',
-		},
-
-	'MAN3PODS'      => {
-		'Toggle.pm'  => '$(INST_MAN3DIR)/Tie::Toggle.3',
 		},
 
 	'clean' => { FILES => 'Tie-Toggle-*' },
