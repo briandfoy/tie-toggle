@@ -1,9 +1,6 @@
 require 5.008;
 use strict;
 use warnings;
-
-
-eval "use Test::Manifest 1.14";
 	
 use File::Spec::Functions qw(catfile);
 
@@ -51,7 +48,7 @@ my %WriteMakefile = (
 			},
 		},
 
-	'clean' => { FILES => 'Tie-Toggle-*' },
+	'clean' => { FILES => "$dist-*" },
 	);
 
 sub arguments { \%WriteMakefile }
