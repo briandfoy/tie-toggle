@@ -21,6 +21,8 @@ sub TIESCALAR
 
 __END__
 
+=encoding utf8
+
 =pod
 
 =head1 NAME
