@@ -6,12 +6,9 @@ use vars qw( $VERSION );
 
 use Tie::Cycle;
 
-#$VERSION = sprintf "%d.%02d", q$Revision$ =~ m/ (\d+) \. (\d+) /xg;
+$VERSION = 1.081;
 
-$VERSION = 1.08;
-
-sub TIESCALAR
-	{
+sub TIESCALAR {
 	my $class    = shift;
 
 	my $self = [ 0, 2, [ 0 == 1, 1 == 1] ];
@@ -35,8 +32,7 @@ Tie::Toggle - False and true, alternately, ad infinitum.
 
     tie my $toggle, 'Tie::Toggle';
 
-	foreach my $number ( 0 .. 10 )
-		{
+	foreach my $number ( 0 .. 10 ) {
 		next unless $toggle;
 
 		print $number, "\n";
@@ -55,13 +51,9 @@ thing, but with any two values.
 
 =head1 SOURCE AVAILABILITY
 
-This source is part of a SourceForge project which always has the
-latest sources in CVS, as well as all of the previous releases.
+This source is in GitHub:
 
-	http://sourceforge.net/projects/brian-d-foy/
-
-If, for some reason, I disappear from the world, one of the other
-members of the project can shepherd this module appropriately.
+	https://github.com/briandfoy/Tie-Toggle
 
 =head1 AUTHOR
 
@@ -69,7 +61,7 @@ brian d foy, C<< <bdfoy@cpan.org> >>.
 
 =head1 COPYRIGHT AND LICENSE
 
-Copyright © 2000-2015, brian d foy <bdfoy@cpan.org>. All rights reserved.
+Copyright © 2000-2016, brian d foy <bdfoy@cpan.org>. All rights reserved.
 
 This program is free software; you can redistribute it and/or modify
 it under the same terms as Perl itself.
