@@ -1,5 +1,8 @@
 Revision history for Perl module Tie::Toggle
 
+1.081 2016-01-12T19:49:03Z
+	* Freshen the module with all the current info
+
 1.08 - 2007-09-24
 	* Updating dist and Makefile.PL. No need to upgrade.
 
