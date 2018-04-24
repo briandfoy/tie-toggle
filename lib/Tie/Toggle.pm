@@ -53,7 +53,7 @@ thing, but with any two values.
 
 This source is in GitHub:
 
-	https://github.com/briandfoy/Tie-Toggle
+	https://github.com/briandfoy/tie-toggle
 
 =head1 AUTHOR
 
