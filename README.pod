@@ -2,6 +2,16 @@
 
 =encoding utf8
 
+=for HTML <a href="https://travis-ci.org/briandfoy/tie-toggle"><img src="https://travis-ci.org/briandfoy/tie-toggle.svg?branch=master" /></a>
+
+=for HTML <a href='https://ci.appveyor.com/project/briandfoy/tie-toggle'><img src='https://ci.appveyor.com/api/projects/status/12c9p0mre5j5fc7d' /></a>
+
+=for HTML <a href='https://coveralls.io/github/briandfoy/tie-toggle?branch=master'><img src='https://coveralls.io/repos/github/briandfoy/tie-toggle/badge.svg?branch=master' alt='Coverage Status' /></a>
+
+=for HTML <a href="https://github.com/briandfoy/tie-toggle/blob/master/LICENSE"><img src="https://img.shields.io/cpan/l/Tie-Toggle.svg" /></a>
+
+=for HTML <a href="http://www.metacpan.org/module/Tie::Toggle"><img src="https://img.shields.io/cpan/v/Tie-Toggle.svg" /></A>
+
 =head1 The Tie::Toggle module
 
 This is the I<README> for the L<Tie::Toggle> Perl module. You get a
