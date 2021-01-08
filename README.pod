@@ -2,8 +2,6 @@
 
 =encoding utf8
 
-=for HTML <a href="https://travis-ci.org/briandfoy/tie-toggle"><img src="https://travis-ci.org/briandfoy/tie-toggle.svg?branch=master" /></a>
-
 =for HTML <a href='https://ci.appveyor.com/project/briandfoy/tie-toggle'><img src='https://ci.appveyor.com/api/projects/status/12c9p0mre5j5fc7d' /></a>
 
 =for HTML <a href='https://coveralls.io/github/briandfoy/tie-toggle?branch=master'><img src='https://coveralls.io/repos/github/briandfoy/tie-toggle/badge.svg?branch=master' alt='Coverage Status' /></a>
