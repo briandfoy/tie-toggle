@@ -1,5 +1,6 @@
 package Tie::Toggle;
 use strict;
+use v5.10;
 
 use parent qw( Tie::Cycle );
 use vars qw( $VERSION );
