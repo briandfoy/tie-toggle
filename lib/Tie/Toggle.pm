@@ -10,10 +10,8 @@ use Tie::Cycle;
 $VERSION = '1.087';
 
 sub TIESCALAR {
-	my $class    = shift;
-
+	my $class = shift;
 	my $self = [ 0, 2, [ 0 == 1, 1 == 1] ];
-
 	bless $self, $class;
 	}
 
@@ -29,13 +27,12 @@ Tie::Toggle - False and true, alternately, ad infinitum.
 
 =head1 SYNOPSIS
 
-    use Tie::Toggle;
+	use Tie::Toggle;
 
-    tie my $toggle, 'Tie::Toggle';
+	tie my $toggle, 'Tie::Toggle';
 
 	foreach my $number ( 0 .. 10 ) {
 		next unless $toggle;
-
 		print $number, "\n";
 		}
 
