@@ -5,8 +5,6 @@ use v5.10;
 use parent qw( Tie::Cycle );
 use vars qw( $VERSION );
 
-use Tie::Cycle;
-
 $VERSION = '1.087';
 
 sub TIESCALAR {
