@@ -13,6 +13,8 @@ sub TIESCALAR {
 	bless $self, $class;
 	}
 
+1;
+
 __END__
 
 =encoding utf8
